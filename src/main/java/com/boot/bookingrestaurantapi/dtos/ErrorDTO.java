@@ -1,6 +1,12 @@
 package com.boot.bookingrestaurantapi.dtos;
 
-public class ErrorDTO {
+import java.io.Serializable;
+
+public class ErrorDTO implements Serializable{
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
 	private String name;
 	private String value;
 	

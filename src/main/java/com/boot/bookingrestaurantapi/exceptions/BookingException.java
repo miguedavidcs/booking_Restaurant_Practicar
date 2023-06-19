@@ -23,6 +23,19 @@ public class BookingException extends Exception{
 		this.responseCode = responseCode;
 		this.errorList.addAll(errorList);
 	}
+	public static long getSerialversionuid() {
+		return serialVersionUID;
+	}
+	public String getCode() {
+		return code;
+	}
+	public int getResponseCode() {
+		return responseCode;
+	}
+	public List<ErrorDTO> getErrorList() {
+		return errorList;
+	}
+	
 	
 
 }
